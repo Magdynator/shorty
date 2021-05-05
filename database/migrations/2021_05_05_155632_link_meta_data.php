@@ -27,6 +27,7 @@ class LinkMetaData extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('link_meta_data');
+
     }
 }

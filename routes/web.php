@@ -15,3 +15,5 @@ use App\Http\Controllers\WebsiteController;
 */
 
 Route::get('/',[WebsiteController::class,'home']);
+Route::post('surl',[WebsiteController::class,'getSurl']);
+Route::get('surl',[WebsiteController::class,'getSurl']);

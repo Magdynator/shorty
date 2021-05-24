@@ -15,52 +15,25 @@ html {
   .shorten {
     position: absolute;
     left: 50%;
-    top: 20%;
+    top: 30%;
   }
   @media only screen and (max-width:400px){
   h2{
     position: relative;
-    right: 40%;
-    top: 10%;
+    right: 50%;
+    top: 20%;
+    font-size: 31px;  
+
   }
   .border{
     position: relative;
-    right: 50%;
-    top: 20%;
-    padding: 12px 20px;
+    right: 65%;
+    padding: 10px 4px;
+    width: 130%;
   }
   #short-button{
     position: relative;
-    right: 15%;
-    top: 20%;
-    padding: 12px 20px;
-  }
-  span {
-    position: relative;
-    display: block;
-    left: 30%;
-  }
-  p{
-    position: relative;
-    left: 25%;
-    top: 20%;
-  }
-  }
-  @media only screen and (min-width:401px) and(max-width:600px){
-   h2{
-    position: relative;
-    right: 40%;
-    top: 20%;
-  }
-  .border{
-    position: relative;
-    right: 50%;
-    top: 20%;
-    padding: 12px 20px;
-  }
-  #short-button{
-    position: relative;
-    right: 15%;
+    right: 25%;
     top: 20%;
     padding: 12px 20px;
   }
@@ -92,8 +65,10 @@ html {
   .border{
     position: relative;
     right: 50%;
-    padding: 20px 84px;
+    padding: 20px 10px;
+    width: 100%;
   }
+  
   #short-button{
     position: absolute;
     top: 110px;
@@ -126,12 +101,13 @@ html {
   }
   .border{
     position: absolute;
-    top: 10px;
   }
   .border{
     position: relative;
-    right: 50%;
-    padding: 10px 110px;
+    top: 10px;
+    right: 55%;
+    padding: 10px 4px;
+    width: 100%;
   }
   #short-button{
     position: absolute;
@@ -150,5 +126,10 @@ html {
      position:absolute;
      bottom:10px;
      width:100%;
+  }
+  .surl{
+    position: relative;
+    top: 10px;
+    right: 20%;
   }
 }

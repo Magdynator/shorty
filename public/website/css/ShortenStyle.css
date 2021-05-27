@@ -8,10 +8,9 @@ html {
     overflow: hidden;
   }
   footer {
-    clear: both;
-    position: relative;
-    height: 200px;
-    margin-top: -200px;
+     position:absolute;
+     bottom:10px;
+     width:100%;
   }
   .shorten {
     position: absolute;

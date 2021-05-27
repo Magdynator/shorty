@@ -24,7 +24,7 @@
 <hr>
 
 <footer>
-  <p>made by : magdy edwar</p>
+  <p>made by: Magdy Edwar</p>
 </footer>
 
 </body>

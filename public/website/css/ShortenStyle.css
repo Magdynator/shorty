@@ -10,7 +10,7 @@ html {
   footer {
      clear: both;
      position:absolute;
-     bottom:10px;
+     margin-bottom: 5px;
      width:100%;
   }
   .shorten {

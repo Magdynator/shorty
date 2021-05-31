@@ -8,8 +8,8 @@ html {
     overflow: hidden;
   }
   footer {
+    position: fixed;
      clear: both;
-     position:absolute;
      bottom:10px;
      width:100%;
   }

@@ -1,5 +1,4 @@
 html {
-  position: relative;
   height: 100%;
 }
 body {
@@ -10,7 +9,7 @@ body {
 }
 footer {
    position:absolute;
-   bottom: 0;
+   bottom:10px;
    width:100%;
 }
 .shorten {

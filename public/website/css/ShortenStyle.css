@@ -14,8 +14,8 @@ footer {
    width:100%;
 }
 .shorten {
-  position: absolute;
-  left: 50%;
+  position: relative;
+    left: 50%;
   top: 30%;
 }
 @media only screen and (max-width:400px){

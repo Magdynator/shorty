@@ -7,6 +7,11 @@ body {
   font-family: sans-serif;
   overflow: hidden;
 }
+.shorten {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+}
 .wrapper {
   min-height: 100%;
   position: relative;
@@ -21,11 +26,7 @@ left: 0px;
 bottom: 0px;
 text-align: center;
 }
-.shorten {
-  position: absolute;
-  left: 50%;
-  top: 30%;
-}
+
 @media only screen and (max-width:400px){
 h2{
   position: relative;

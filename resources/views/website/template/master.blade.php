@@ -24,8 +24,6 @@
 <hr>
 <div class="wrapper">
 </div>
-
-<footer>
 <script>
 $(document).ready(function(){
   var _originalSize = $(window).width() + $(window).height()
@@ -40,8 +38,7 @@ $(document).ready(function(){
   });
 });
 </script>
-
-
+<footer>
   <p>made by: Magdy Edwar</p>
 </footer>
 

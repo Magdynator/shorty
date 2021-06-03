@@ -25,9 +25,25 @@
 <div class="wrapper">
 </div>
 
-<div id="footer">
-  <p>&copy; 2021 Magdy Edwar</p>
-</div>
+<footer>
+<script>
+$(document).ready(function(){
+  var _originalSize = $(window).width() + $(window).height()
+  $(window).resize(function(){
+    if($(window).width() + $(window).height() != _originalSize){
+      console.log("keyboard show up");
+      $(".copyright_link").css("position","relative");  
+    }else{
+      console.log("keyboard closed");
+      $(".copyright_link").css("position","fixed");  
+    }
+  });
+});
+</script>
+
+
+  <p>made by: Magdy Edwar</p>
+</footer>
 
 </body>
 </html>

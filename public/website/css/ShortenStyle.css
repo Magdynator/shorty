@@ -7,26 +7,16 @@ body {
   font-family: sans-serif;
   overflow: hidden;
 }
+footer {
+   position:absolute;
+   bottom:10px;
+   width:100%;
+}
 .shorten {
   position: absolute;
   left: 50%;
   top: 30%;
 }
-.wrapper {
-  min-height: 100%;
-  position: relative;
-padding-bottom:90px; /* footer's height */
-}
-#footer {
-width: 100%;
-background-color: #4c66a4;
-color: #fff;
-position: absolute;
-left: 0px;
-bottom: 0px;
-text-align: center;
-}
-
 @media only screen and (max-width:400px){
 h2{
   position: relative;

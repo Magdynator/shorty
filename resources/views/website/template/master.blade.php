@@ -23,10 +23,10 @@
 @yield('content')
 
 
-</div>
 <footer>
   <p>made by: Magdy Edwar</p>
 </footer>
+</div>
 
 </body>
 </html>

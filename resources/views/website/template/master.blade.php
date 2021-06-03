@@ -3,6 +3,9 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="{{ asset('website/css/ShortenStyle.css') }}" rel="stylesheet">
+<script type="text/javascript">
+        document.write( '<style>#footer{visibility:hidden}@media(min-height:' + ($( window ).height() - 10) + 'px){#footer{visibility:visible}}</style>' );
+    </script>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -24,20 +27,7 @@
 <hr>
 <div class="wrapper">
 </div>
-<script>
-$(document).ready(function(){
-  var _originalSize = $(window).width() + $(window).height()
-  $(window).resize(function(){
-    if($(window).width() + $(window).height() != _originalSize){
-      console.log("keyboard show up");
-      $(".copyright_link").css("position","relative");  
-    }else{
-      console.log("keyboard closed");
-      $(".copyright_link").css("position","fixed");  
-    }
-  });
-});
-</script>
+
 <footer>
   <p>made by: Magdy Edwar</p>
 </footer>

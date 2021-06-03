@@ -19,10 +19,11 @@
      
   </div>
 </nav>
+<div class="Container">
 @yield('content')
 
-<hr>
 
+</div>
 <footer>
   <p>made by: Magdy Edwar</p>
 </footer>

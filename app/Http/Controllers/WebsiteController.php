@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-use Carbon\Carbon;
 use App\Models\Link;
+use Carbon\Carbon;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Redirect;
+
 
 class WebsiteController extends Controller
 {
@@ -21,12 +23,16 @@ class WebsiteController extends Controller
         for ($i = 0; $i < 6; $i++) {
             $surl .= $characters[rand(0, $charactersLength - 1)];
         }
-        $url = $req->getSchemeAndHttpHost().'/'.$surl;
+        $url = $req->getSchemeAndHttpHost() . '/' . $surl;
         $link = Link::create([
             'surl' => $url,
             'lurl' => $lurl,
-            'created_at' => Carbon::now()->toDateTimeString()
+            'created_at' => Carbon::now()->toDateTimeString(),
         ]); 
         return view('website.home', compact('url'));
+        }
+        public function redirect($surl){
+            $link = Link::where('surl','like', '%' . $surl . '%')->get('lurl'); 
+            return Redirect::to($link[0]->lurl);
         }
 }

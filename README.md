@@ -6,7 +6,7 @@ a website helps you to shorten your long urls and make your message not so long 
 ## Demo
 [click here](https://shorty-u.herokuapp.com/)
 
-### Sceenshots
+### Screenshots
 1- **Home page**
 
 ![IMG_20210809_112718](https://user-images.githubusercontent.com/56822500/128688873-22cfafd4-1a8b-4150-abbd-169ce8099f96.jpg)

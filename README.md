@@ -3,8 +3,6 @@
 ## What is it?
 
 a website helps you to shorten your long urls and make your message not so long made by laravel 8 <br/>
-## Demo
-[click here](https://shorty-u.herokuapp.com/)
 
 ### Screenshots
 1- **Home page**
